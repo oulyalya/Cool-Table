@@ -1,0 +1,33 @@
+.table {
+  min-width: 150px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+.table caption {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.table tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+.table th {
+  min-width: 50px;
+  padding: 15px;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid rgb(73, 70, 70);
+  background-color: black;
+}
+
+.table td {
+  padding: 15px;
+  border: 1px solid grey;
+}
